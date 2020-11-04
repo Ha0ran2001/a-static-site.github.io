@@ -1,0 +1,303 @@
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+ .icon3 {
+     width: 5em;
+     height: 5em;
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    font-size: 12px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #999B99;
+    padding: 0 34px;
+}
+
+.navContent {
+    line-height: 60px;
+}
+
+.navContent:hover {
+    border-bottom: 2px solid #000;
+    animation: lineMove .3s linear;
+    cursor: pointer;
+}
+
+.pointFather {
+    position: relative;
+}
+.point {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 9px;
+    right: 16px;
+}
+
+.logoImage {
+    width: 6%;
+    height: 38px;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+}
+
+.userImage {
+    width: 38px;
+    height: 38px;
+}
+
+#user {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(169, 170, 181, 0.15) 0px 1px 15px 0px;
+    z-index: 10;
+    background: #fff;
+}
+
+.nav {
+    width: 94%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav .left .leftBox {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .empty {
+    width: 400px;
+}
+.nav .right .rightBox {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav .right .rightBox .navContent .userInfo {
+    position: relative;
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Info {
+    display: flex;
+    align-content:flex-start;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.menu {
+    height: 0;
+    margin-top: 65px;
+    position: absolute;
+    overflow: hidden;
+    transition: .2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    box-shadow: rgba(169, 170, 181, 0.15) 1px 1px 15px 0px;
+    color: #999B99;
+}
+
+.menu li {
+    height: 30px;
+    width: fit-content;
+    padding: 0 10px;
+}
+
+.Info:hover .menu {
+    height: 300px;
+}
+
+.mainContent {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    z-index: 0;
+    overflow: auto;
+}
+
+.myWorkContainer {
+    position: fixed;
+    margin-top: 3px; 
+    width: 340px;
+    height: 100%;
+    background: #F5F5FA;  
+    font-size: 13px;
+    color: #999B99;
+}
+
+.top {
+    margin: 28px 26px 0;
+    width: 288px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check {
+    padding: 0;
+}
+.mid{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.midContent {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotWork {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 340px;
+    width: auto;
+    height: 100%;
+}
+
+.container {
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.title {
+    font-size: 13px;
+    color: #999B99;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.hotBox1 {
+    margin-top: 40px;
+}
+.pic {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1Image {
+    width: 350px;
+    height: 160px;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.hotBox2 {
+    margin-top: 50px;
+}
+
+.realWork {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box2Image {
+    width: 286px;
+    height: 270px;
+}
+
+.photo2 {
+    width: 100%;
+    height: 100%;
+}
+
+.kefu {
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    height: 30px;
+    background: #0154CD;
+    border-radius: 3px;
+    z-index: 20;
+    font-size: 14px;
+    color: #fff;
+}
+
+.kefu:hover .fansiren{
+    cursor: pointer;
+    width: 80px;
+}
+.kefu:hover .xxxx {
+    width: 0;
+}
+ 
+.fansiren { 
+    width: 0;
+    overflow: hidden;
+    transition: .5s;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kefu .xxxx {
+    float: right;
+    width: 30px;
+    height: 30px;
+    padding-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.kefuPhoto {
+    width: 75%;
+    height: 75%;
+}
+
+.kefuPhoto2 {
+    width: 22.5px;
+    height: 22.5px;
+}
